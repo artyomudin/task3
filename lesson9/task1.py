@@ -1,4 +1,6 @@
-def hi(a):
-    print(a)
+'''with open('myfile.txt', 'w') as my_string:
+    message = my_string.write('hello srting world')'''
 
-print((hi(4)))
+with open('myfile.txt') as my_string:
+    somefile = my_string.read()
+    print(somefile)
